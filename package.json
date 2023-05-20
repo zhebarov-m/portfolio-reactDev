@@ -1,0 +1,30 @@
+{
+  "name": "my-portfolio-frontend-dev",
+  "version": "1.0.0",
+  "description": "My porfolio is a frintend developer on React.js",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhebarov-m/portfolio-reactDev.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Muhammad Zhebarov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhebarov-m/portfolio-reactDev/issues"
+  },
+  "homepage": "https://github.com/zhebarov-m/portfolio-reactDev#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "eslint": "^8.40.0",
+    "rollup": "^3.22.0",
+    "rollup-plugin-import-css": "^3.2.1"
+  }
+}
